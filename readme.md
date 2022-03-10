@@ -1,29 +1,18 @@
-# Group project #1
+# Pick a Movie
 
-# Random movie generator
+## Purpose
+A website that suggests a user a random movie to watch when a user doesn't have a preference of what to watch.
 
-AS a user who likes different movies
-I WANT to be suggesed a movie
-SO THAT it’s easier for me to pick a movie to watch
+## Built With
+* HTML
+* CSS Frameworks
+* Third party API
+* Javascript 
 
+## Website
+https://veselavalava.github.io/pick-a-movie/
 
-GIVEN I don’t know what to watch
-WHEN I open the website
-THEN I’m presented with an options tab to choose from available categories that help me choose a movie
-WHEN I click the button to generate a movie, a movie suggestion pops up
-WHEN I scroll down 
-THEN the movie description is presented with a link to a trailer
-
-Optional:
-When I scroll down 
-THEN I’m presented with a button to save a movie to watch later
-WHEN I click the button
-THEN the movie is saved to the favorite movie list
-
-
-Optional:
-When I scroll down, I’m presented with a button to generate a random snack idea to watch a movie
-WHEN I click on a button
-THEN I’m presented with a random snack idea
+## Contribution
+Made by Rodrigo Valencia, Evin White & Boris Veselov
 
 
