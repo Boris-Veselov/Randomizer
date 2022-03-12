@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <title>Pick A Movie</title>
-    
+    <title>Random</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="window">
+        <div id="title-bar">
+            <div class="btn">
+                <button id="adviceBtn">Get Advice</button>
+            </div>
+        </div>
+        <div class="results">
+            <div id="advide" class="result">
+                <div id="window-body">
+                    <p>Get Advice</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="window">
         <div id="title-bar">
-            <div id="dot">
-
+            <div class="btn">
+                <button id="factBtn">Get Fun Fact</button>
             </div>
         </div>
-
-        <div id="window-body">
-            <h1>Pick A Movie</h1>
+        <div class="results">
+            <div id="funFact" class="result">
+                <div id="window-body">
+                    <p>Random Fun Fact</p>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- <header>
-        <h1>Pick A Movie</h1>
-    </header>
-
-    <main>
-        <h2>Genre</h2>
-        <h2>Mood</h2>
-        <h2>Occasion</h2>
-        <h2>How many movies</h2>
-
-        <button id="btngenerate" class="btn">Generate</button>
-    </main> -->
-
+    
+    <script src="./script.js"></script>
 </body>
 </html>

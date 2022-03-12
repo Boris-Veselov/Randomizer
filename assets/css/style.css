@@ -8,27 +8,54 @@
 body {
     width: 100vw;
     height: 100vh;
+
     display: flex;
-    background-color: black;
-    /* background: url('./assets/img/bg-img.png') no-repeat; */
+    
+    background: black;
     background-size: cover;
+
     color: #322f31;
-    font-family: Arial, Helvetica, sans-serif;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
 }
 
 #window {
     margin: auto;
     background-color: #f3f1f4;
+
     border: solid 0.1rem #6e6e6e4d;
+
     box-shadow: 0 1rem 3rem #0000004d;
+
     border-radius: 0.8rem;
     overflow: hidden;
 }
 
 #title-bar {
-    background-color: #f9f4f8;
-    border-bottom: solid 0.1rem #dcdcdc;
+    background-color: white;
+    border-bottom: solid 0.1rem white;
+
+
 }
+
+#dots {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+
+}
+
+#dots span {
+    height: 1rem;
+    width: 1rem; 
+    margin-right: 0.6rem;
+
+    background-color: aqua;
+    border-radius: 50%;
+}
+
 
 #window-body {
     padding: 6rem 10rem;

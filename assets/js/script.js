@@ -1,5 +1,23 @@
-var apiKey = "8b5c2d425e160fb76e6667731c5e0958";
-var apiFetch = "https://api.themoviedb.org/3/movie/550?api_key=8b5c2d425e160fb76e6667731c5e0958";
+const advice = document.getElementById("advice");
+const funFact = document.getElementById("funFact");
+const adviceBtn = document.getElementById("adviceBtn");
+const factBtn = document.getElementById("factBtn");
 
-var apiKey2 = "k_2uj8zhjg";
+adviceBtn.addEventListener("click", getRandomAdvice)
+// factBtn.addEventListener("click", getRandomFact)
 
+
+function getRandomAdvice (advice) {
+    console.log(advice)
+    fetch("https://asli-fun-fact-api.herokuapp.com/")
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+        for (const slip of data.fact) {
+            let listItem = document.createElement('li');
+                listItem.appendChild(
+                    document.createElement('strong')
+                ).textContent = product.Name;
+        }     
+    })
+}
