@@ -1,6 +1,6 @@
 # Project name: 
 
-Just another random movie
+Just another random page
 
 # Purpose
 
@@ -8,10 +8,10 @@ A website that suggests random facts or jokes for when you're looking for random
 
 # Built With
 
-HTML
-CSS Frameworks
-Third party API
-Javascript
+* HTML
+* CSS Frameworks
+* Third party API
+* Javascript
 
 # Website
 
