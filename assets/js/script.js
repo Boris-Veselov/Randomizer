@@ -4,20 +4,33 @@ const adviceBtn = document.getElementById("adviceBtn");
 const factBtn = document.getElementById("factBtn");
 
 adviceBtn.addEventListener("click", getRandomAdvice)
-// factBtn.addEventListener("click", getRandomFact)
+factBtn.addEventListener("click", getRandomFact)
 
 
 function getRandomAdvice (advice) {
-    console.log(advice)
+    // console.log(advice)
+    fetch("https://api.adviceslip.com/advice")
+    // .then(function(response) {
+    //     if (response.ok) {
+    //         response.json().then(function(data) {
+                
+    //         })
+    //     }
+    // })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data.slip.advice) 
+    })
+}
+
+function getRandomFact (fact) {
+    // console.log(advice)
     fetch("https://asli-fun-fact-api.herokuapp.com/")
     .then(res => res.json())
     .then(data => {
-        console.log(data)
-        for (const slip of data.fact) {
-            let listItem = document.createElement('li');
-                listItem.appendChild(
-                    document.createElement('strong')
-                ).textContent = product.Name;
-        }     
+        console.log(data.data.fact)
+        let p = document.createElement("p");
+        document.body.appendChild(p);
+        
     })
 }
