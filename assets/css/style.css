@@ -58,3 +58,7 @@ body {
 #window-body {
     padding: 6rem 10rem;
 }
+
+.answer {
+    font-size: 10px;
+}
