@@ -5,72 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>JUST ANOTHER RANDOM PAGE</h1>
-    </header>
-
-    <div id="window">
-        <div id="title-bar">
-            <div class="btn">
-                <button id="adviceBtn">Get Advice</button>
-            </div>
-        </div>
-        <div class="results">
-            <div id="advice" class="result">
-                <div id="window-body">
-                    <p id="adviceResult" class="answer">Get Advice</p>
+   
+    <div class="container is-centered">
+        <h1 class="title">JUST ANOTHER RANDOM PAGE</h1>
+          
+    </div>
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div id="window">
+                        <div id="title-bar">
+                            <div class="btn">
+                                <button id="adviceBtn" class="button is-large is-outlined is-info">Get Advice</button>
+                            </div>
+                            <div class="results">
+                                <div id="advice" class="result">
+                                    <div id="window-body">
+                                        <p id="adviceResult" class="answer">The one you didn't ask for</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+        
+                <div class="column">
+                    <div id="window">
+                        <div id="title-bar">
+                            <div class="btn">
+                                <button id="factBtn" class="button is-large is-outlined is-info">Get Fun Fact</button>
+                            </div>
+                            <div class="results">
+                                <div id="funFact" class="result">
+                                    <div id="window-body">
+                                        <p id="factResult" class="answer">What they don't teach you at school</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+            
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div id="window">
+                        <div id="title-bar">
+                            <div class="btn">
+                                <button id="chuckNorrisBtn" class="button is-large is-outlined is-info">Chuck Norris Knows Best</button>
+                            </div>
+                            <div class="results">
+                                <div id="chuckNorris" class="result">
+                                    <div id="window-body">
+                                        <p id="chuckNorrisResult" class="answer">The original karate champion</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
 
-    <div id="window">
-        <div id="title-bar">
-            <div class="btn">
-                <button id="factBtn">Get Fun Fact</button>
-            </div>
-        </div>
-        <div class="results">
-            <div id="funFact" class="result">
-                <div id="window-body">
-                    <p id="factResult" class="answer">Random Fun Fact</p>
+                <div class="column">
+                    <div id="window">
+                        <div id="title-bar">
+                            <div class="btn">
+                                <button id="evilBtn" class="button is-large is-outlined is-info">Evil</button>
+                            </div>
+                            <div class="results">
+                                <div id="evilInsult" class="result">
+                                    <div id="window-body">
+                                        <p id="evilResult" class="answer">I didn't mean to offend you, but..</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div id="window">
-        <div id="title-bar">
-            <div class="btn">
-                <button id="chuckNorrisBtn">Chuck Norris Knows Best</button>
-            </div>
-        </div>
-        <div class="results">
-            <div id="chuckNorris" class="result">
-                <div id="window-body">
-                    <p id="chuckNorrisResult" class="answer">HIT IT</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="window">
-        <div id="title-bar">
-            <div class="btn">
-                <button id="evilBtn">Evil</button>
-            </div>
-        </div>
-        <div class="results">
-            <div id="evilInsult" class="result">
-                <div id="window-body">
-                    <p id="evilResult" class="answer">Evil Insults</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
     
     <script src="./assets/js/script.js"></script>
 </body>
