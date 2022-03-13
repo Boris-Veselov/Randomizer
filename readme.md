@@ -1,18 +1,22 @@
-# Pick a Movie
+# Project name: 
 
-## Purpose
-A website that suggests a user a random movie to watch when a user doesn't have a preference of what to watch.
+Just another random page
 
-## Built With
+# Purpose
+
+A website that suggests random facts or jokes for when you're looking for random funny information online
+
+# Built With
+
 * HTML
 * CSS Frameworks
 * Third party API
-* Javascript 
+* Javascript
 
-## Website
-https://veselavalava.github.io/pick-a-movie/
+# Website
 
-## Contribution
+https://boris-veselov.github.io/Randomizer/
+
+# Contribution
+
 Made by Rodrigo Valencia, Evin White & Boris Veselov
-
-
