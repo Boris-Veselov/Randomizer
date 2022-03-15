@@ -10,15 +10,15 @@ const chuckNorris = document.getElementById("chuckNorris");
 const chuckNorrisBtn = document.getElementById("chuckNorrisBtn");
 const chuckNorrisResult = document.getElementById("chuckNorrisResult");
 
-const evilInsult = document.getElementById("evilInsult");
-const evilBtn = document.getElementById("evilBtn");
-const evilResult = document.getElementById("evilResult");
+const excuse = document.getElementById("excuse");
+const excuseBtn = document.getElementById("excuseBtn");
+const excuseResult = document.getElementById("excuseResult");
 
 
 adviceBtn.addEventListener("click", getRandomAdvice)
 factBtn.addEventListener("click", getRandomFact)
 chuckNorrisBtn.addEventListener("click", getChuckNorris)
-evilBtn.addEventListener("click", getEvilInsult)
+excuseBtn.addEventListener("click", getExcuse)
 
 
 function getRandomAdvice (advice) {
@@ -51,12 +51,12 @@ function getChuckNorris (chuckNorris) {
     })
 }
 
-function getEvilInsult (evil) {
-    // console.log(evil)
-    fetch("https://evilinsult.com/api/")
+function getExcuse (excuse) {
+    // console.log(excuse)
+    fetch("https://excuser.herokuapp.com/v1/excuse")
     .then(res => res.json())
     .then(data => {
-        console.log(data.data.insult)
-        evilResult.textContent = data.data.insult       
+        console.log(data [0] .excuse)
+        excuseResult.textContent = data [0] .excuse
     })
 }
