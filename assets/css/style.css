@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&family=Staatliches&display=swap');
+
 
 .hero-body {
     background: url("../images/space.jpg") center;
@@ -10,7 +11,10 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
-p {
-    font-family: "Staatliches";
+/* #font-style {
+    font-family: "cursive";
+} */
 
+p {
+    font-family: "Rubik", cursive;
 }
