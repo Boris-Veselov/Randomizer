@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random</title>
+    <title>another random page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     
     <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-        @import url(‘https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300;1,400&family=Staatliches&display=swap’);
-    </style>
 
-    <!-- Favicon -->
+    <!--favicon-->
     <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
     
     
@@ -20,38 +17,55 @@
 </head>
 <body>
 
+    <!--app name-->
     <section class="hero has-background-black">
+        
+        <!-- icon -->
         <div class="container">
-            <h1 class="title py-4 has-text-white">JUST ANOTHER RANDOM PAGE</h1>
+            <h1 class="title py-4 has-text-white"><span class="icon-text">
+                <span class="icon">
+                  <i class="fas fa-home"></i>
+                </span>
+                <span></span>
+        <!-- icon end -->
+
+              </span>JUST ANOTHER RANDOM PAGE</h1>
         </div>
     </section>
 
+    <!-- hero elements -->
+    
+       
+      
     <section class="hero hero-ladning is-large">
         <div class="hero-body is-large">
             <div class="container">
                 <p id="font-style" class="title has-text-centered has-text-white">
                     Welcome to Another Random Page
                 </p>
-                <p class="subtitle has-text-centered has-text-white">
-                    The one you've haven't been lookign for
+                <p id="font-style" class="subtitle has-text-centered has-text-white">
+                    The one you haven't been lookign for
                 </p>
             </div>
         </div>
     </section>
+    <!-- hero elements end -->
     
-    <section class="section">
+    <!-- buttons section -->
+
+    <section class="section has-background-grey-lighter">
         <div class="container">
             <div class="columns">
-                <div class="column px-6 mx-6">
+                <div class="column">
                     <div id="window">
                         <div id="title-bar">
-                            <div class="btn">
+                            <div class="btn has-text-centered">
                                 <button id="adviceBtn" class="button is-large is-outlined is-info">Get Advice</button>
                             </div>
                             <div class="results">
                                 <div id="advice" class="result">
                                     <div id="window-body">
-                                        <p id="adviceResult" class="answer">The one you didn't ask for</p>
+                                        <p id="adviceResult" class="answer has-text-centered mt-2">The one you didn't ask for</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,16 +73,16 @@
                     </div>
                 </div>
         
-                <div class="column px-6 mx-6">
+                <div class="column">
                     <div id="window">
                         <div id="title-bar">
-                            <div class="btn">
+                            <div class="btn has-text-centered">
                                 <button id="factBtn" class="button is-large is-outlined is-info">Get Fun Fact</button>
                             </div>
                             <div class="results">
                                 <div id="funFact" class="result">
                                     <div id="window-body">
-                                        <p id="factResult" class="answer">What they don't teach you at school</p>
+                                        <p id="factResult" class="answer has-text-centered mt-2">What they don't teach you at school</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,19 +93,19 @@
         </div>
     </section>
             
-    <section class="section">
+    <section class="section has-background-grey-lighter">
         <div class="container">
             <div class="columns">
-                <div class="column px-6 mx-6">
+                <div class="column">
                     <div id="window">
                         <div id="title-bar">
-                            <div class="btn">
+                            <div class="btn has-text-centered">
                                 <button id="chuckNorrisBtn" class="button is-large is-outlined is-info">Chuck Norris Knows Best</button>
                             </div>
                             <div class="results">
                                 <div id="chuckNorris" class="result">
                                     <div id="window-body">
-                                        <p id="chuckNorrisResult" class="answer">The original karate champion</p>
+                                        <p id="chuckNorrisResult" class="answer has-text-centered mt-2">The original karate champion</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,16 +113,16 @@
                     </div>
                 </div>
 
-                <div class="column px-6 mx-6">
+                <div class="column">
                     <div id="window">
                         <div id="title-bar">
-                            <div class="btn">
-                                <button id="excuseBtn" class="button is-large is-outlined is-info">Excuse</button>
+                            <div class="btn has-text-centered">
+                                <button id="excuseBtn" class="button is-large is-outlined is-info">When I'm sorry doesn't cut it</button>
                             </div>
                             <div class="results">
                                 <div id="excuse" class="result">
                                     <div id="window-body">
-                                        <p id="excuseResult" class="answer">I can't, because ..</p>
+                                        <p id="excuseResult" class="answer has-text-centered mt-2">I can't, because ..</p>
                                     </div>
                                 </div>
                             </div>
@@ -119,13 +133,17 @@
         </div>
     </section>
 
+    <!-- buttons section end -->
+
+    <!-- footer -->
     <footer class="footer has-background-black has-text-white">
-        <div class="content has-text-centered">
+        <div class="content has-text-centered mt-6">
           <p>
               &copy; 2022 Build by Rodrigo, Evin & Boris
           </p>
         </div>
     </footer>
+    <!-- footer end -->
     
     <script src="./assets/js/script.js"></script>
 </body>
