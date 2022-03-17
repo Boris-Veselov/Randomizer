@@ -20,3 +20,5 @@ https://boris-veselov.github.io/Randomizer/
 # Contribution
 
 Made by Rodrigo Valencia, Evin White & Boris Veselov
+
+![randomizer](https://user-images.githubusercontent.com/98068019/158718930-271f53c1-21d9-4ec5-a215-e797bc7f40fc.png)
