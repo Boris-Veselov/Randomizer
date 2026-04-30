@@ -18,7 +18,7 @@
     background: url("../images/space.jpg") center;
     background-size: cover;
     z-index: 0;
-    animation: spin 8s ease-in-out infinite alternate;
+    animation: spin 52s ease-in-out infinite;
     transform-origin: center center;
 }
 
@@ -28,8 +28,23 @@
 }
 
 @keyframes spin {
-    from { transform: rotate(-6deg); }
-    to   { transform: rotate(6deg); }
+    /* Rock back and forth */
+    0%   { transform: rotate(0deg); }
+    7%   { transform: rotate(8deg); }
+    14%  { transform: rotate(-8deg); }
+    21%  { transform: rotate(8deg); }
+    28%  { transform: rotate(-8deg); }
+    32%  { transform: rotate(-8deg); }
+    /* Full rotation */
+    46%  { transform: rotate(352deg); }
+    /* Rock back and forth */
+    53%  { transform: rotate(360deg); }
+    60%  { transform: rotate(352deg); }
+    67%  { transform: rotate(368deg); }
+    74%  { transform: rotate(352deg); }
+    78%  { transform: rotate(352deg); }
+    /* Full rotation — ends at 720° = 0° so loop is seamless */
+    100% { transform: rotate(720deg); }
 }
 
 /* fonts of different elements */
