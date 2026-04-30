@@ -14,12 +14,14 @@
 
 .spinning-orb {
     position: absolute;
-    inset: -20%;
+    width: 140vmax;
+    height: 140vmax;
+    top: calc(50% - 70vmax);
+    left: calc(50% - 70vmax);
     background: url("../images/space.jpg") center;
     background-size: cover;
     z-index: 0;
     animation: spin 52s ease-in-out infinite;
-    transform-origin: center center;
 }
 
 .hero-body .container {
