@@ -8,6 +8,22 @@ background: url("../images/space.jpg") center;
     background-size: cover;
 }
 
+.spinning-orb {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: url("../images/space.jpg") center;
+    background-size: 300%;
+    animation: spin 12s linear infinite;
+    margin: 24px auto 0;
+    box-shadow: 0 0 40px rgba(100, 180, 255, 0.5), inset 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+@keyframes spin {
+    from { background-position: 0% 50%; }
+    to   { background-position: 100% 50%; }
+}
+
 /* fonts of different elements */
 body {
     font-family: "bungee shade";
