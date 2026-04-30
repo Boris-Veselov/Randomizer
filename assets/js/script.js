@@ -32,12 +32,10 @@ function getRandomAdvice (advice) {
 }
 
 function getRandomFact (fact) {
-    // console.log(fact)
-    fetch("https://asli-fun-fact-api.herokuapp.com/")
+    fetch("https://uselessfacts.jsph.pl/api/v2/facts/random")
     .then(res => res.json())
     .then(data => {
-        console.log(data.data.fact)
-        factResult.textContent = data.data.fact        
+        factResult.textContent = data.text
     })
 }
 
@@ -52,11 +50,9 @@ function getChuckNorris (chuckNorris) {
 }
 
 function getExcuse (excuse) {
-    // console.log(excuse)
-    fetch("https://excuser.herokuapp.com/v1/excuse")
+    fetch("https://excuser-three.vercel.app/v1/excuse")
     .then(res => res.json())
     .then(data => {
-        console.log(data [0] .excuse)
-        excuseResult.textContent = data [0] .excuse
+        excuseResult.textContent = data[0].excuse
     })
 }
